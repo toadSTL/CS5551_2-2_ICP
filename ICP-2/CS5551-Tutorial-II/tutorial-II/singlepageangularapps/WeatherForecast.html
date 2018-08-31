@@ -1,0 +1,62 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+    <title>Weather Forecast</title>
+</head>
+<body>
+<div ng-app="weather" ng-controller="weatherctrl">
+    State Code: <input type="text" ng-model="state" id="state"></input>
+    <br/><br/>
+    City: <input type="text" ng-model="city" id="city"></input>
+    <br/><br/>
+    <button id="btn" ng-click="getWeather(state, city)">Show Weather Forecast</button>
+    <br/>
+    <div>
+        {{currentTime}}<br/>
+        {{currentWeather}}<br/>
+        <img src={{currentIcon}}><br/>
+        {{updateTime}}<br/>
+        <br/>
+    </div>
+    <div ng-repeat="fc in forecast">
+        {{fc}}<br>
+        <img src={{forecastIcon[$index]}}>
+    </div>
+</div>
+
+<script>
+    angular.module('weather',[])
+        .controller('weatherctrl', function($scope, $http) {
+            $scope.getWeather = function(state, city) {
+                $http.get('http://api.wunderground.com/api/4bbbc25f4f5946dd/conditions/q/' + state + '/' + city + '.json').success(function(data) {
+                    console.log(data);
+                    upTime = data.current_observation.observation_time;
+                    temp = data.current_observation.temp_f;
+                    icon = data.current_observation.icon_url;
+                    cond = data.current_observation.weather;
+                    console.log(temp);
+                    $scope.currentWeather = "In " + city  + ", " + state  + " it is " + temp + " F and " + cond;
+                    $scope.currentIcon = icon;
+                    $scope.updateTime = upTime;
+                })
+                $scope.forecast = [];
+                $scope.forecastIcon = [];
+                $http.get('http://api.wunderground.com/api/4bbbc25f4f5946dd/hourly/q/' + state + '/' + city + '.json').success(function(data) {
+                    console.log(data);
+                    var i = 0;
+                    while(i < 5) {
+                        time = data.hourly_forecast[i].FCTTIME.civil;
+                        temp = data.hourly_forecast[i].temp.english;
+                        icon = data.hourly_forecast[i].icon_url;
+                        cond = data.hourly_forecast[i].condition;
+                        $scope.forecast[i] = "Forcast for " + city + " at " + time + " is " + temp + " F and " + cond;
+                        $scope.forecastIcon[i] = icon;
+                        i++;
+                    }
+                })
+            }
+
+        });
+</script>
+</body>
+</html>
