@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78fc11e4-49a4-4d84-8db7-133e6637a9ab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III/CS5551-Tutorial-III/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III/CS5551-Tutorial-III/js/nutrition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III/CS5551-Tutorial-III/nutrition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/.idea/ICP-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III/CS5551-Tutorial-III/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ICP-3/CS5551-Tutorial-III/CS5551-Tutorial-III/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/Submission.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/Submission/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/apiKey.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICP-3/apiKey.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +73,7 @@
     <session id="719008459">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -345,15 +354,16 @@
       <workItem from="1535668414957" duration="27351000" />
       <workItem from="1536270695875" duration="650000" />
       <workItem from="1536280508009" duration="595000" />
-      <workItem from="1536337569888" duration="4242000" />
+      <workItem from="1536337569888" duration="4507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54097000" />
+    <option name="totallyTimeSpent" value="54362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
       <window_info id="Structure" order="1" weight="0.25" />

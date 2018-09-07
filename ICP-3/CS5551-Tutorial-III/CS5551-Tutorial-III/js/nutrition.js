@@ -4,9 +4,9 @@ app.controller('nutritionController', function($scope, $http){
     $scope.getNutrition = function () {
         $http.get('https://api.nutritionix.com/v1_1/search/' + $scope.food + '?results=0:1&fields=*&appId=ebef0451&appKey=1fb3db833bdba1e32c1a474ce5e7c2c8').success(function(data) {
             //Below call to console.log() for debugging
-            //console.log(data);
-            $scope.calories=data.hits[0].fields.nf_calories;
-            $scope.servingWt=data.hits[0].fields.nf_serving_weight_grams;
+            console.log(data);
+            $scope.calories=data.hits[0].fields.nf_calories + " cal";
+            $scope.servingWt=data.hits[0].fields.nf_serving_weight_grams + " g";
 
             //BELOW calls to console.log() for debugging
             //console.log($scope.food);
