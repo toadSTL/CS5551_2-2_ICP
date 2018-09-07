@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="http://code.angularjs.org/1.4.4/angular.min.js"></script>
+    <title>Nutrition Client-Side Mashup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+    <body>
+        <div ng-app="nutrtionModule" ng-controller="nutritionController">
+            <div class="col-md-8 col-sm-8"  style="width: 100%;">
+                <h3>Search for Nutrition</h3>
+                <form class="contact-form" >
+                <!--HERE IS WHERE USERS SUBMIT FOOD-->
+                    <input type="text"  ng-model="food" style="width: 50%;"  placeholder="Enter Food Name...">
+                    <input type="button" ng-click="textToSpeech();getNutrition()" value="Search">
+                </form>
+            </div>
+            <div>
+                <div class="col-md-4">
+                    Food: {{food}}
+                </div>
+                <div class="col-md-4">
+                    Calories: {{calories}}
+                </div>
+                <div class="col-md-4">
+                    Serving Weight: {{servingWt}}
+                </div>
+            </div>
+        </div>
+        <script src="js/nutrition.js"></script>
+    </body>
+</html>

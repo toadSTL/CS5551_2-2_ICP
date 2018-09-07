@@ -1,0 +1,6 @@
+{
+	"name": "CS5551 ICP3",
+	"description": "A Mashup application using NutritionIX to display following info :Calories and serving weight in grams, also use Watson Text to speech api to speak out the searched keyword",
+	"createdAt": "2018-09-06T22:05+0000",
+	"apiKey": "SFIVST7L3hxhuYRAdDZ8pT9stHQyj5FKcYNmkBC8DLWd"
+}
