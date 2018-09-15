@@ -15,9 +15,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,6 +26,9 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 public class TranslateActivity extends AppCompatActivity {
 
@@ -55,11 +55,6 @@ public class TranslateActivity extends AppCompatActivity {
         a.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
         fromLang.setAdapter(a);
         toLang.setAdapter(a);
-    }
-
-    public void logout(View v) {
-        Intent redirect = new Intent(TranslateActivity.this, LoginActivity.class);
-        startActivity(redirect);
     }
 
     public void translateText(View v) {
@@ -109,5 +104,10 @@ public class TranslateActivity extends AppCompatActivity {
 
         }
 
+    }
+
+    public void logout(View v) {
+        Intent redirect = new Intent(TranslateActivity.this, LoginActivity.class);
+        startActivity(redirect);
     }
 }
