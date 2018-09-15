@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1536972517238"
+    timestamp="1536975934318"
     token="-2583558773488998696"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="118" />
+        duration="192" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="47" />
     <task
         name="verifier"
-        duration="12" />
+        duration="18" />
 
     <artifact
         location="D:\Users\Gregory\Documents\GitHub\CS5551_2-2_ICP\ICP-4\TranslateApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -102,7 +102,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1536972517238"
+        timestamp="1536975934318"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Users\Gregory\Documents\GitHub\CS5551_2-2_ICP\ICP-4\TranslateApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
