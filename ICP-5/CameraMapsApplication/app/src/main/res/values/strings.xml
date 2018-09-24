@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CameraMapsApplication</string>
+    <string name="google_maps_key">AIzaSyACCzHmPrwpw9g11peiFq6bTObUtMA6EEg</string>
+    <string name="title_activity_my_maps">Map</string>
+    <string name="location_permission_denied">Location permissions denied,
+        please enable the permissions to use this app.
+    </string>
+</resources>
