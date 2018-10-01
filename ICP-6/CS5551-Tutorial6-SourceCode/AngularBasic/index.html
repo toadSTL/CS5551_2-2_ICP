@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="" data-ng-app="myApp">
+<head>
+  <meta t="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angular Basic Example</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>    
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="css/main.css">    
+</head>
+
+<body>
+    <div ng-controller="PersonController" data-ng-init="course='ASE CS5551'">
+        <p>First Name: <input type="text" name="firstName" id="firstName" data-ng-model="person.fname"/><br/><br/>
+           Last Name: <input type="text" name="lastName" id="lastName" data-ng-model="person.lname"/></p><br/>
+        <p> Hello {{person.lname + " " + person.fname}}  </p><br/>
+        <p> Welcome to <span data-ng-bind="course" </span></p>
+        
+    </div>
+</body>
+</html>

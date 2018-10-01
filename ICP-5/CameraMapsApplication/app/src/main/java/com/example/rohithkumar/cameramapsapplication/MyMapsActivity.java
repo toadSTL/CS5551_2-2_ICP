@@ -40,7 +40,7 @@ public class MyMapsActivity extends FragmentActivity implements OnMapReadyCallba
     Location currLoc;
 
     private static final int REQUEST_LOCATION_PERMISSION = 1;
-    private final static String KEY_LOCATION = "location";
+    //private final static String KEY_LOCATION = "location";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
