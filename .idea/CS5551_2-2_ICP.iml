@@ -3,6 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-6/CS5551-Tutorial6-SourceCode/todo/__MACOSX/todo/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-6/CS5551-Tutorial6-SourceCode/todo/todo/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-6/loginApp/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-6/loginApp/www" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-7/CS5551-Tutorial-VII/CS5551_Tutorial7_Plugin/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/ICP-7/CS5551-Tutorial-VII/__MACOSX/CS5551_Tutorial7_Plugin/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
