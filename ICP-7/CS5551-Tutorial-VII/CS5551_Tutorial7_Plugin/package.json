@@ -1,0 +1,46 @@
+{
+    "name": "imageapp",
+    "version": "1.0.0",
+    "description": "ImageApp: An Ionic project",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "4.5.5",
+        "cordova-plugin-camera": "^2.3.1",
+        "cordova-plugin-compat": "^1.2.0",
+        "firebase": "^5.5.3",
+        "gulp": "^3.5.6",
+        "gulp-concat": "^2.2.0",
+        "gulp-minify-css": "^0.3.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^1.3.3"
+    },
+    "devDependencies": {
+        "@ionic/v1-toolkit": "1.0.9",
+        "bower": "^1.3.3",
+        "gulp-util": "^2.2.14",
+        "shelljs": "^0.3.0"
+    },
+    "cordovaPlugins": [
+        "cordova-plugin-device",
+        "cordova-plugin-console",
+        "cordova-plugin-whitelist",
+        "cordova-plugin-splashscreen",
+        "com.ionic.keyboard"
+    ],
+    "cordovaPlatforms": [
+        "ios",
+        "android"
+    ],
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-camera": {
+                "CAMERA_USAGE_DESCRIPTION": " ",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+            }
+        }
+    }
+}
